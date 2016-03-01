@@ -29,7 +29,7 @@ alias godev='cd ~/Sites'
 alias vcard='cd ~/dev/projects/vcard'
 alias mink='cd ~/Sites/niftymink'
 alias fhvm='ssh fhoffmann@fhoffmann.mmt-b2013.multimediatechnology.at -p 5412'
-alias chillaid='cd ~/Sites/elixir-socket-test'
+alias chillaid='cd ~/Sites/chillaid'
 
 # Network
 alias ip="ifconfig|grep broadcast"  # List IPs
@@ -81,6 +81,9 @@ alias sass='sass --watch scss:css'
 alias tls='tmux ls'
 alias tks='tmux kill-session -t'
 
+# Game backups
+alias bmc='backup_minecraft'
+alias mcpath='cd /Users/Fabi/Library/Application\ Support/minecraft/saves'
 
 # Server only
 alias proj='cd /home/deploy/projects'

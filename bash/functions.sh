@@ -52,3 +52,13 @@ droplet () {
 
     eval "ssh $user@$addr"
 }
+
+# minecraft backup
+
+backup_minecraft () {
+  eval "cd /Users/Fabi/Library/Application\ Support/minecraft/saves"
+  eval "gaa"
+  eval "gc"
+  eval "gps"
+  eval "cdd"
+}
