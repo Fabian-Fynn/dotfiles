@@ -30,6 +30,7 @@ alias vcard='cd ~/dev/projects/vcard'
 alias mink='cd ~/Sites/niftymink'
 alias fhvm='ssh fhoffmann@fhoffmann.mmt-b2013.multimediatechnology.at -p 5412'
 alias chillaid='cd ~/Sites/chillaid'
+alias pi='ssh pi@fabianfynn.ddns.net'
 
 # Network
 alias ip="ifconfig|grep broadcast"  # List IPs

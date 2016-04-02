@@ -30,6 +30,7 @@
 	browser = open
 [merge]
 	tool = vimdiff
+	ff = only
 
 [mergetool "vimdiff"]
 	cmd = vim -d "$LOCAL" "$MERGED" "$REMOTE"
