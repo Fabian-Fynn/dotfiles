@@ -84,3 +84,6 @@ autocmd BufNewFile,BufRead /Users/henrik/Dropbox/Code/exercism/* nmap § :Exerci
 
 " Tell other tmux pane to ctrl+c.
 nmap <leader>§ :VimuxInterruptRunner<CR>
+
+" vim preview
+let vim_markdown_preview_toggle=2

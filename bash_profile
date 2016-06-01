@@ -33,3 +33,4 @@ shopt -s histappend;
 # Autocorrect typos in path names when using `cd`
 shopt -s cdspell;
 
+export PATH=/usr/local/mysql/bin:$PATH
