@@ -1,8 +1,8 @@
 [user]
-	name = Fabian Hoffmann
-	email = fhoffmann.mmt-b2013@fh-salzburg.ac.at
+	name = Fabian-Fynn
+	email = fhoffmann.mmt-m2016@fh-salzburg.ac.at
 [core]
-	excludesfile = /Users/henrik/.gitignore
+	excludesfile = ~/.gitignore
 	ignorecase = false
 	pager = less -R
 [color]
@@ -39,3 +39,7 @@
 	autosetuprebase = always
 [pull]
 	rebase = true
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true

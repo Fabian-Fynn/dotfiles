@@ -24,13 +24,10 @@ alias mv='mv -i' #move ask if overwrite
 alias apt-get='apt-get sudo'
 
 # Project navigation
-alias fh='cd ~/Google\ Drive/fh/6.Semester'
+alias fh='cd ~/Google\ Drive/fh/'
 alias godev='cd ~/Sites'
 alias vcard='cd ~/dev/projects/vcard'
-alias mink='cd ~/Sites/niftymink'
 alias fhvm='ssh fhoffmann@fhoffmann.mmt-b2013.multimediatechnology.at -p 5412'
-alias chillaid='cd ~/Sites/chillaid'
-alias pi='ssh pi@fabianfynn.ddns.net'
 
 # Network
 alias ip="ifconfig|grep broadcast"  # List IPs
@@ -73,14 +70,14 @@ alias hc='heroku run console'
 alias hlog='heroku logs -t'
 
 # Tools
-alias mysql='sudo /usr/local/mysql/support-files/mysql.server'
+#alias mysql='sudo /usr/local/mysql/support-files/mysql.server'
 alias pgstart='sudo postgres -D /usr/local/var/postgres'
 alias mongo='mongod --config /usr/local/etc/mongod.conf'
-alias sass='sass --watch scss:css'
 
 # Tmux
 alias tls='tmux ls'
 alias tks='tmux kill-session -t'
+alias ta='tmux at -t'
 
 # Game backups
 alias bmc='backup_minecraft'
